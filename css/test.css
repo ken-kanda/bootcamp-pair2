@@ -1,0 +1,35 @@
+@charset "EUC-JP";
+
+/* Common */
+div#page_body{width:980px;}
+strong {font-weight:bold; color:#d10000;}
+em {font-weight:bold;}
+
+/* Main_Visual */
+div#main_visual {width: 980px; height: 288px; margin-bottom: 20px; position: relative;}
+div#main_visual p.lead {position: absolute; top: 160px; left: 20px; width: 603px; background-color: #fff; border-radius: 5px; font-size: 16px; line-height: 1.5; padding: 10px;}
+div#main_visual div.bnr_ad {position: absolute; top: 5px; right: 5px; width: 300px; background-color: #fff; padding: 5px;}
+
+/* Section Layout */
+div.gn_contents_group {margin-bottom: 20px;}
+div.gn_contents_group div.col_area {margin-right: -5px; margin-bottom: -5px; overflow: hidden;}
+*:first-child+html div.gn_contents_group div.col_area { margin-bottom: 0px; } 
+
+/* Section Column */
+div.gn_contents_group div.col_area div.sec_3col {float: left; width: 300px; height: 270px; padding: 9px; border: 1px solid #ccc; border-radius: 5px; background-color: #fff; margin: 0px 5px 5px 0px; }
+
+/* Section Img Banner */
+div.gn_contents_group p.bnr {width: 300px; width: 170px; margin-bottom: 10px;}
+div.gn_contents_group p.bnr_all {width: 300px; width: 270px;}
+
+/* Section Data */
+div.gn_contents_group table {width: 300px; border-width: 0px 1px 1px 1px; border-spacing: 0; border-collapse: collapse; border-style: solid; border-color: #ccc; font-size: 14px; font-weight: bold; margin-bottom: 10px;}
+div.gn_contents_group table th {border-top: 1px solid #ccc; padding: 8px; text-align: left;}
+div.gn_contents_group table td {border-top: 1px solid #ccc; text-align: right; line-height: 1; padding: 8px;}
+div.gn_contents_group table td p {min-height: 22px;}
+div.gn_contents_group table td p.pts_text {float: right; padding-left: 25px; background:url(http://ecnavi.jp.eimg.jp/game/img/icon_point.png) no-repeat 0 0; font-family: Verdana, Arial, Helvetica, "£Í£Ó £Ð¥´¥·¥Ã¥¯", "¥Ò¥é¥®¥Î³Ñ¥´ Pro W3", "Hiragino Kaku Gothic Pro", "Osaka", sans-serif; font-weight: bold; color: #d10000;}
+div.gn_contents_group table td p.no_pts {background:none;}
+div.gn_contents_group table td strong {font-size: 20px;}
+
+/* Section Button */
+div.gn_contents_group p.button_area {margin: 0 auto; text-align: center;}
